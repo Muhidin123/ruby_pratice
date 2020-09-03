@@ -69,3 +69,6 @@ class Account
     end
   end
 end
+
+new = Account.new("Muhidin", 500_000)
+new.access

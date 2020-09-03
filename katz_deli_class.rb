@@ -1,7 +1,7 @@
 class KatzDeli
 
   def initialize
-    @katz_deli = []
+    @katz_deli = ["amy", "mike"]
   end
 
 
@@ -37,9 +37,7 @@ end
 
 
 new_line = KatzDeli.new
-new_line.now_serving
-
-
+new_line.line
 
 
 
